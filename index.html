@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon//favicon-16x16.png"
+    />
+    <title>Frontend Mentor | Manage landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="logo-box">
+            <img src="images/logo.svg" alt="logo icon" />
+          </div>
+          <nav
+            class="primary-nav"
+            data-primary-nav
+            aria-label="Primary navigation bar"
+          >
+            <ul class="nav-list">
+              <a href="#"><li>Pricing</li></a>
+              <a href="#"><li>Product</li></a>
+              <a href="#"><li>About Us</li></a>
+              <a href="#"><li>Careers</li></a>
+              <a href="#"><li>Community</li></a>
+            </ul>
+          </nav>
+          <div class="haburger-icon-box">
+            <img
+              src="images/icon-hamburger.svg"
+              alt="hamburger icon"
+              data-hamburger-icon
+            />
+            <img
+              src="images/icon-close.svg"
+              alt="close the menu icon"
+              data-close-icon
+            />
+          </div>
+          <button id="headerButton" class="btn btn-accent">Get Started</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- HERO SECTION -->
+      <section
+        aria-details="hero section with background pattern"
+        class="hero-section"
+      >
+        <div class="bg-pattern-hero">
+          <svg class="icon">
+            <use xlink:href="images/sprites.svg#bg-tablet-pattern"></use>
+          </svg>
+        </div>
+        <div class="container">
+          <div class="hero-wrapper">
+            <div class="illustration">
+              <img
+                src="images/illustration-intro.svg"
+                alt="illustration image in hero section"
+              />
+            </div>
+            <div class="details">
+              <h1>Bring everyone together to build better products.</h1>
+              <p>
+                Manage makes it simple for software teams to plan day-to-day
+                tasks while keeping the larger team goals in view.
+              </p>
+              <button class="btn btn-accent">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FEATURES SECTION -->
+      <section class="features-section">
+        <div class="bg-pattern-features">
+          <svg class="icon">
+            <use xlink:href="images/sprites.svg#bg-tablet-pattern"></use>
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="features-wrapper">
+            <header>
+              <h2>What’s different about Manage?</h2>
+              <p>
+                Manage provides all the functionality your team needs, without
+                the complexity. Our software is tailor-made for modern digital
+                product teams.
+              </p>
+            </header>
+            <main>
+              <article class="features-article">
+                <div class="title">
+                  <span data-index>01</span>
+                  <p>Track company-wide progress</p>
+                </div>
+                <div class="body">
+                  <p>
+                    See how your day-to-day tasks fit into the wider vision. Go
+                    from tracking progress at the milestone level all the way
+                    done to the smallest of details. Never lose sight of the
+                    bigger picture again.
+                  </p>
+                </div>
+              </article>
+              <article class="features-article">
+                <div class="title">
+                  <span data-index>02</span>
+                  <p>Advanced built-in reports</p>
+                </div>
+                <div class="body">
+                  <p>
+                    Set internal delivery estimates and track progress toward
+                    company goals. Our customisable dashboard helps you build
+                    out the reports you need to keep key stakeholders informed.
+                  </p>
+                </div>
+              </article>
+              <article class="features-article">
+                <div class="title">
+                  <span data-index>03</span>
+                  <p>Everything you need in one place</p>
+                </div>
+                <div class="body">
+                  <p>
+                    Stop jumping from one service to another to communicate,
+                    store files, track tasks and share documents. Manage offers
+                    an all-in-one team productivity solution.
+                  </p>
+                </div>
+              </article>
+            </main>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIAL SECTION -->
+      <section class="testimonials-section">
+        <div class="carousel-wrapper">
+          <h2>What they&apos;ve said</h2>
+          <div class="scroller" data-scroll-direction="right">
+            <ul class="list scroller__inner">
+              <li class="scroller-item">
+                <div class="slide">
+                  <img src="images/avatar-anisha.png" alt="Person Avatar" />
+                  <h3>Anisha Li</h3>
+                  <p>
+                    “Manage has supercharged our team&apos;s workflow. The
+                    ability to maintain visibility on larger milestones at all
+                    times keeps everyone motivated.”
+                  </p>
+                </div>
+              </li>
+              <li class="scroller-item">
+                <div class="slide">
+                  <img src="images/avatar-ali.png" alt="Person Avatar" />
+                  <h3>Ali Bravo</h3>
+                  <p>
+                    “We have been able to cancel so many other subscriptions
+                    since using Manage. There is no more cross-channel confusion
+                    and everyone is much more focused.”
+                  </p>
+                </div>
+              </li>
+              <li class="scroller-item">
+                <div class="slide">
+                  <img src="images/avatar-richard.png" alt="Person Avatar" />
+                  <h3>Richard Watts</h3>
+                  <p>
+                    “Manage allows us to provide structure and process. It keeps
+                    us organized and focused. I can&apos;t stop recommending
+                    them to everyone I talk to!”
+                  </p>
+                </div>
+              </li>
+              <li class="scroller-item">
+                <div class="slide">
+                  <img src="images/avatar-shanai.png" alt="Person Avatar" />
+                  <h3>Shanai Gough</h3>
+                  <p>
+                    “Their software allows us to track, manage and collaborate
+                    on our projects from anywhere. It keeps the whole team
+                    in-sync without being intrusive.” Get Started
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-accent">Get Started</button>
+        </div>
+      </section>
+      <!-- CTA SECTION -->
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-wrapper">
+            <div class="bg-pattern-cta">
+              <svg class="icon">
+                <use xlink:href="images/sprites.svg#bg-tablet-pattern"></use>
+              </svg>
+            </div>
+            <h1>Simplify how your team works today.</h1>
+            <button class="btn btn-light">Get Started</button>
+          </div>
+        </div>
+      </section>
+      <!-- LEARN-MORE SECTION -->
+      <footer class="learn-more-section">
+        <div class="container">
+          <div class="learn-more-wrapper">
+            <form id="learn-more-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="updatesInput"
+                  placeholder="Updates in your inbox..."
+                  required
+                />
+                <p id="error-message"></p>
+              </div>
+              <button class="btn btn-accent" id="footer-btn">Go</button>
+            </form>
+            <nav class="learn-more-nav" aria-label="footer navigation bar">
+              <ul class="learn-more-nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+            <div class="socials-logo-box">
+              <div class="socials" aria-label="Social Media icons">
+                <a href="#"
+                  ><svg class="icon">
+                    <use xlink:href="images/sprites.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#"
+                  ><svg class="icon">
+                    <use xlink:href="images/sprites.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+                <a href="#"
+                  ><svg class="icon">
+                    <use xlink:href="images/sprites.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a href="#"
+                  ><svg class="icon">
+                    <use xlink:href="images/sprites.svg#icon-pinterest"></use>
+                  </svg>
+                </a>
+                <a href="#"
+                  ><svg class="icon">
+                    <use xlink:href="images/sprites.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="logo-box">
+                <img src="images/logo-light.svg" alt="logo" />
+              </div>
+            </div>
+            <div class="copyrights">
+              <p>Copyright 2023.All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
