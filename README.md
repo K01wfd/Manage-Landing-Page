@@ -29,9 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop-size.png)
-![](./screenshots/mobile-size.png)
-![](./screenshots/navbar-open.png)
+![](./screenshots/desktop.png)
+![](./screenshots/mobile-1.png)
+![](./screenshots/mobile-2.png)
+![](./screenshots/active-nav-bar.png)
 
 ### Links
 
